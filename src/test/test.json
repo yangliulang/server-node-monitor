@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "instanceId": "192.168.200.86:webservice:8181",
+      "serviceId": "webservice",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.87:webservice:8181",
+      "serviceId": "webservice",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.21:SERVICE-SECURITIES1:8092",
+      "serviceId": "service-securities1",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.87:EUREKA:8001",
+      "serviceId": "eureka",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.88:EUREKA:8001",
+      "serviceId": "eureka",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.23:SERVICE-SECURITIES2:8092",
+      "serviceId": "service-securities2",
+      "status": "UP"
+    },
+    {
+      "instanceId": "192.168.200.84:zuul:8080",
+      "serviceId": "zuul",
+      "status": "UP"
+    }
+  ],
+  "messageType": 1,
+  "projectCode": "0001",
+  "timeStamp": 1561448498807
+}

@@ -1,0 +1,25 @@
+let arr = window.location.hostname.split('.')
+let domain = arr[arr.length - 2] + '.' + arr[arr.length - 1]
+export default {
+  // cookie domain
+  domain: domain,
+  // href domain
+  // 58coin
+  mainDomain: `http://goods-main.dev.${domain}/`,
+  // account
+  userDomain: `http://goods-user.dev.${domain}/`,
+  // otc
+  otcDomain: `http://goods-otc.dev.${domain}/`,
+  // usdt
+  usdtDomain: `http://goods-usdt.dev.${domain}/`,
+  // 特会平台
+  specialDomain: `http://goods-special.dev.${domain}/`,
+  // api
+  registerDomain: `http://goods-register.dev.${domain}/`, // 邀请连接
+  //baseURL: `http://dev-tbex-cfd-admin.cfddev.${domain}/`, // 主要接口 dev环境
+  baseURL: `http://dev-tbex-cfd-web-controller.cfddev.${domain}/`, // 58coin 58spot
+  userURL: `http://dev-tbex-cfd-web-controller.cfddev.${domain}/`, // 58coin 58spot
+  otcURL: `http://dev-tbex-cfd-otc-web.cfddev.${domain}/cfd/`, // otc
+  zendeskURL: 'https://lianbe.zendesk.com/',
+  oosImgUrl: `https://tianbi-test.oss-cn-beijing.aliyuncs.com/`
+}

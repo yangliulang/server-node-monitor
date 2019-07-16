@@ -1,0 +1,21 @@
+let arr = window.location.hostname.split('.')
+let domain = arr[arr.length - 2] + '.' + arr[arr.length - 1]
+export default {
+  domain,
+  mainDomain: `https://www.${domain}/`,
+  userDomain: `https://user.${domain}/`,
+  futureDomain: `https://usdtfuture.${domain}/`,
+  // otc
+  otcDomain: `https://c2c.${domain}/`,
+  platDomain: `https://platform.${domain}/`,  // admit
+  specialDomain: `https://special.${domain}/`, // 特会
+  // api
+  registerDomain: `https://goods-register.${domain}/`, // 邀请连接
+  baseURL: `https://wwwapi.${domain}/`, // 现货 主站 接口地址
+  futureURL: `https://usdtapi.${domain}/cfd/tally/`, // 现货 usdt 接口
+  otcURL: `https://otcapi.${domain}/`, // 现货 OTC 接口地址
+  otcSocketURL: `wss://otcws.${domain}/websocket`, // 现货OTC websocket Url
+  webSocketURL: `wss://ws.${domain}/websocket`, // webSocket
+  zendeskURL: `https://lianbe.zendesk.com/`,
+  oosImgUrl: 'https://tianbi-test.oss-cn-beijing.aliyuncs.com/'
+}
